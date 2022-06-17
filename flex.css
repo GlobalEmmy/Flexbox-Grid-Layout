@@ -105,3 +105,25 @@ p {
   border: 1px solid hsla(0, 0%, 100%, 0.75);
   color: hsla(0, 0%, 100%, 0.75);
 }
+@media screen and (min-width: 1440px) {
+  .flex__container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .flex__container {
+    margin: auto;
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
