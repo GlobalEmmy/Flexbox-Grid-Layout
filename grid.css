@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-    background: black;
+  background: black;
 }
 header {
   display: flex;
@@ -11,25 +11,37 @@ header {
   padding: 40px 0;
   margin: 10px 0;
   list-style: none;
-  text-decoration: none;
   justify-content: center;
-  text-decoration: none;
   color: #fff;
 }
-.flex, .grid {
+.link a {
+  width: 100%;
+}
+a {
+  display: flex;
+  flex-direction: row;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-decoration: none;
+  border: 1px solid hsl(31, 77%, 52%);
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+  justify-content: center;
+}
+.flex,
+.grid {
   color: #fff;
   margin: 10px;
   font-size: 20px;
   text-decoration: none;
   transition: all 40ms ease;
-  
 }
-.flex:hover, .grid:hover {
-  background: #fff;
- color: black;
- padding: 0 20px;
- text-decoration: none;
-  border-radius: 25px;
+.flex:hover,
+.grid:hover {
+  width: 100%;
+  background: hsl(31, 77%, 52%);
+  text-decoration: none;
+  border-radius: 20px;
 }
 
 .layout__1 {
@@ -53,7 +65,7 @@ header {
   grid-area: lay5;
 }
 main {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .grid__container {
@@ -67,13 +79,12 @@ main {
     "lay3 lay3 lay3 lay4 lay4 lay4"
     "lay3 lay3 lay3 lay5 lay5 lay5";
 }
-.layout__1{
-    padding: 100px 70px;
+.layout__1 {
+  padding: 100px 70px;
 }
 .layout__2,
 .layout__3,
 .layout__4,
 .layout__5 {
-    padding: 50px 70px;
+  padding: 50px 70px;
 }
-
