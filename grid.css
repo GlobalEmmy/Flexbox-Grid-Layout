@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background: black;
+}
+header {
+  display: flex;
+  background: hsl(184, 100%, 22%);
+  padding: 40px 0;
+  margin: 10px 0;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+}
+.flex, .grid {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 40ms ease;
+  
+}
+.flex:hover, .grid:hover {
+  background: #fff;
+ color: black;
+ padding: 0 20px;
+ text-decoration: none;
+  border-radius: 25px;
+}
+
+.layout__1 {
+  background: red;
+  grid-area: lay1;
+}
+.layout__2 {
+  background: orange;
+  grid-area: lay2;
+}
+.layout__3 {
+  background: green;
+  grid-area: lay3;
+}
+.layout__4 {
+  background: blue;
+  grid-area: lay4;
+}
+.layout__5 {
+  background: blue;
+  grid-area: lay5;
+}
+main {
+    margin-top: 120px;
+}
+
+.grid__container {
+  margin: auto;
+  width: 50%;
+  display: grid;
+  gap: 8px;
+  grid-template-areas:
+    "lay1 lay1 lay1 lay1 lay2 lay2"
+    "lay1 lay1 lay1 lay1 lay2 lay2"
+    "lay3 lay3 lay3 lay4 lay4 lay4"
+    "lay3 lay3 lay3 lay5 lay5 lay5";
+}
+.layout__1{
+    padding: 100px 70px;
+}
+.layout__2,
+.layout__3,
+.layout__4,
+.layout__5 {
+    padding: 50px 70px;
+}
+

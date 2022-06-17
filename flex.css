@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Lexend+Deca:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+main {
+  margin-top: 100px;
+}
+header {
+  display: flex;
+  background: hsl(184, 100%, 22%);
+  padding: 40px 0;
+  margin: 10px 0;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+}
+.flex, .grid {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 40ms ease;
+  
+}
+.flex:hover, .grid:hover {
+  background: #fff;
+ color: black;
+ padding: 0 20px;
+ text-decoration: none;
+  border-radius: 25px;
+}
+.flex__container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+.container__1,
+.container__2,
+.container__3 {
+  padding: 15px;
+  margin: 15px 0;
+  height: 60vh;
+}
+h1,
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  justify-content: center;
+  margin: 15px;
+}
+.container__1 {
+  background: hsl(31, 77%, 52%);
+}
+.container__2 {
+  background: hsl(184, 100%, 22%);
+}
+.container__3 {
+  background: hsl(179, 100%, 13%);
+}
+.sedan__button,
+.suv__button,
+.luxury__button {
+  background: hsl(0, 0%, 95%);
+  padding: 7px 25px;
+  border-radius: 25px;
+  border: hsla(0, 0%, 100%, 0.75);
+  border-style: none;
+  margin: 25px;
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+.sedan__button {
+  color: hsl(31, 77%, 52%);
+}
+.suv__button {
+  color: hsl(184, 100%, 22%);
+}
+.luxury__button {
+  color: hsl(179, 100%, 13%);
+}
+.sedan__button:hover,
+.suv__button:hover,
+.luxury__button:hover {
+  background: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+}
